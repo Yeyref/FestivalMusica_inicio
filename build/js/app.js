@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
         imagen.innerHTML =  `
                 <source srcset="build/img/thumb/${i}.avif" type="image/avif">
                 <source srcset="build/img/thumb/${i}.webp" type="image/webp">
-                <img loading="lazy" width="200" height="300" src="/src/img/thumb/${i}.jpg" alt="Imagen Galeria">
+                <img loading="lazy" width="200" height="300" src="build/img/thumb/${i}.jpg" alt="Imagen Galeria">
         ` 
             imagen.onclick = function(){
             mostrarImagen(i);   //TERCAR CALLBACK DENTRO DEL BUCLE FOR
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function () {
         imagen.innerHTML =  `
                 <source srcset="build/img/grande/${id}.avif" type="image/avif">
                 <source srcset="build/img/grande/${id}.webp" type="image/webp">
-                <img loading="lazy" width="200" height="300" src="/src/img/grande/${id}.jpg" alt="Imagen Galeria">
+                <img loading="lazy" width="200" height="300" src="build/img/grande/${id}.jpg" alt="Imagen Galeria">
         ` ;
         
         //CREAR OVERLAY O MODAL PARA MOSTRAR IMAGEN EN GRANDE DESPUES DEL CLICK
