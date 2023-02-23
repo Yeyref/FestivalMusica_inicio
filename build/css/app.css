@@ -327,6 +327,7 @@ video {
     width: auto;
     display: block;
     max-height: 50rem;
+    object-fit: contain;
 } 
     @media (min-width:768px) {
         video {
@@ -347,7 +348,7 @@ video {
 
 .contenido-video {
     position: absolute;
-    z-index: 10;
+    z-index: 1;
 }
 
 .contenido-video h2 {
