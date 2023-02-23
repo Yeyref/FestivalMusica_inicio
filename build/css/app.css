@@ -327,7 +327,6 @@ video {
     width: auto;
     display: block;
     max-height: 50rem;
-    z-index: -9;
 } 
     @media (min-width:768px) {
         video {
@@ -347,6 +346,7 @@ video {
 } */
 
 .contenido-video {
+    position: absolute;
     z-index: 10;
 }
 
