@@ -315,6 +315,7 @@ img {
 .video .overlay {
     background: #d517d7;
     background: linear-gradient(128deg, rgba(213, 23, 215, .7), rgba(0, 255, 76, .3));
+    background-attachment: local;
     display: flex;
     flex-direction: column;
     height: 100%;
