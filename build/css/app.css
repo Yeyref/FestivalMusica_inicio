@@ -327,6 +327,7 @@ video {
     width: auto;
     display: block;
     max-height: 50rem;
+    z-index: -9;
 } 
     @media (min-width:768px) {
         video {
@@ -346,7 +347,7 @@ video {
 } */
 
 .contenido-video {
-    z-index: 100;
+    z-index: 10;
 }
 
 .contenido-video h2 {
